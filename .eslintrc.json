@@ -1,0 +1,61 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "shared-node-browser": true
+    },
+    "globals": {
+        "angular": true,
+        "cordova": true,
+        "StatusBar": true,
+        "google": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "block-scoped-var": [
+            "error"
+        ],
+        "default-case": [
+            "error"
+        ],
+        "eqeqeq": [
+            "error",
+            "smart"
+        ],
+        "no-else-return": [
+            "error"
+        ],
+        "strict": [
+            "error",
+            "global"
+        ],
+        "no-undef-init": [
+            "error"
+        ],
+        "camelcase": [
+            1
+        ],
+        "no-console": [
+            0
+        ],
+        "no-unused-vars": [
+            1
+        ]
+    }
+}
